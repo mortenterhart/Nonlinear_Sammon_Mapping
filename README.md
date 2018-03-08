@@ -1,7 +1,27 @@
 # Nonlinear Sammon Mapping
 This project examines the significance of the _Nonlinear Sammon Mapping_ algorithm
 by John W. Sammon, JR. related to the Data Mining process which is discussed in
-[Runker's book about _Data Mining_]().
+[Runker's book about _Data Mining_](https://link.springer.com/book/10.1007%2F978-3-8348-2171-3).
+
+## The Sammon Algorithm
+The Sammon mapping algorithm projects a high-dimensional data set into a set of lower
+dimensionality. Therefore it is a very useful tool at multidimensional scaling and
+representation of complex forms or data sets in an easier way. Using this method,
+it is easier to access the relations between data points while being able to
+recognize patterns faster.
+
+### Procedure
+Denote the distance between `i`th and `j`th objects in the original space by
+`d_{ij}^*`, and the distance between their projections by `d_{ij}`.
+Sammon's mapping aims to minimize the following error function, which is often referred to as
+**Sammon's stress** or **Sammon's error**:
+
+![Sammon stress function](https://wikimedia.org/api/rest_v1/media/math/render/svg/a162a8c19c865869cdb8ec7b0aa6cd0d7e9f3c68)
+
+The minimization can be performed either by gradient descent, as proposed initially,
+or by other means, usually involving iterative methods. The number of iterations need
+to be experimentally determined and convergent solutions are not always guaranteed.
+Many implementations prefer to use the first Principal Components as a starting configuration.
 
 ## References
 * **J.W. Sammon** (1969). _"A nonlinear mapping for data structure analysis"_.
