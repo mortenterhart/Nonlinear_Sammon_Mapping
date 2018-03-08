@@ -1,11 +1,13 @@
 # Nonlinear Sammon Mapping
-This project examines the 
+This project examines the significance of the _Nonlinear Sammon Mapping_ algorithm
+by John W. Sammon, JR. related to the Data Mining process which is discussed in
+[Runker's book about _Data Mining_]().
 
 ## References
 * **J.W. Sammon** (1969). _"A nonlinear mapping for data structure analysis"_.
   IEEE Transactions on Computers. 18: 401, 402,403–409.
 * **Thomas A. Runkler** (2015). _"Data Mining - Modelle und Algorithmen intelligenter Datenanalyse"_.
-  In Computational Intelligence. 2. Auflage. Springer Vieweg. Berlin 2015.
+  In Computational Intelligence, pp 47-51. 2. Auflage. Springer Vieweg. Berlin 2015.
 * **Elzbieta Pȩkalska**, **Dick de Ridder**, **Robert P.W. Duin** and **Martin A. Kraaijveld** (1999).
   _"A new method of generalizing Sammon mapping with application to algorithm speed-up"_.
   Proc. 5th Annual Conference of the Advanced School for Computing and Imaging (ASCI1999).
