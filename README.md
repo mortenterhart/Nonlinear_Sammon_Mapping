@@ -16,7 +16,7 @@ Denote the distance between `i`th and `j`th objects in the original space by
 Sammon's mapping aims to minimize the following error function, which is often referred to as
 **Sammon's stress** or **Sammon's error**:
 
-![Sammon stress function](https://wikimedia.org/api/rest_v1/media/math/render/svg/a162a8c19c865869cdb8ec7b0aa6cd0d7e9f3c68)
+![Sammon stress function](https://camo.githubusercontent.com/06d0bb30809939df61df8dc7ef98fc9cd1051a38/68747470733a2f2f77696b696d656469612e6f72672f6170692f726573745f76312f6d656469612f6d6174682f72656e6465722f7376672f61313632613863313963383635383639636462386563376230616136636430643765396633633638)
 
 The minimization can be performed either by gradient descent, as proposed initially,
 or by other means, usually involving iterative methods. The number of iterations need
