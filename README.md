@@ -17,7 +17,7 @@ Sammon's mapping aims to minimize the following error function, which is often r
 **Sammon's stress** or **Sammon's error**:
 
 <p align="justify">
-![Sammon stress function](https://wikimedia.org/api/rest_v1/media/math/render/svg/a162a8c19c865869cdb8ec7b0aa6cd0d7e9f3c68)
+    <img alt="Sammon stress function" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a162a8c19c865869cdb8ec7b0aa6cd0d7e9f3c68" />
 </p>
 
 The minimization can be performed either by gradient descent, as proposed initially,
